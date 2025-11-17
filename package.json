@@ -1,7 +1,7 @@
 {
-  "name": "smart-switch-dialogflow-webhook",
+  "name": "smart-switch-ai-webhook",
   "version": "1.0.0",
-  "description": "Gemini AI Webhook for Smart Switch Data Transfer App",
+  "description": "Smart Switch Data Transfer AI Assistant with Llama 3.3",
   "main": "gemini-webhook.js",
   "scripts": {
     "start": "node gemini-webhook.js",
