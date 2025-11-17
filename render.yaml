@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: smart-switch-webhook
+    name: smart-switch-llama-webhook
     env: node
     plan: free
     buildCommand: npm install
@@ -8,5 +8,5 @@ services:
     envVars:
       - key: NODE_ENV
         value: production
-      - key: GEMINI_API_KEY
-        value: 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
+      - key: GROQ_API_KEY
+        value: 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
