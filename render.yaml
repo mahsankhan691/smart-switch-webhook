@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: smart-switch-webhook
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node gemini-webhook.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: GEMINI_API_KEY
+        value: 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
