@@ -1,17 +1,12 @@
 {
-  "name": "smart-switch-ai-webhook",
-  "version": "1.0.0",
-  "description": "Smart Switch Data Transfer AI Assistant with Llama 3.3",
+  "name": "smart-switch-webhook",
+  "version": "1.0.0", 
   "main": "gemini-webhook.js",
   "scripts": {
-    "start": "node gemini-webhook.js",
-    "dev": "node gemini-webhook.js"
+    "start": "node gemini-webhook.js"
   },
   "dependencies": {
     "express": "^4.18.2",
     "axios": "^1.6.0"
-  },
-  "engines": {
-    "node": ">=18.0.0"
   }
 }
