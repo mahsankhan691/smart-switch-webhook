@@ -1,6 +1,6 @@
 {
-  "name": "smart-switch-webhook",
-  "version": "1.0.0", 
+  "name": "smart-switch-groq",
+  "version": "1.0.0",
   "main": "gemini-webhook.js",
   "scripts": {
     "start": "node gemini-webhook.js"
